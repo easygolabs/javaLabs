@@ -1,0 +1,7 @@
+[Composite](x:30,y:40,w:10,h:10){
+    [Triangle](x:30,y:40,w:10,h:10),
+    [Circle](x:30,y:40,w:10,h:10),
+    [Composite](x:30,y:40,w:10,h:10){
+        [Circle](x:30,y:40,w:10,h:10)
+    }
+}
